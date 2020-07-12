@@ -1,0 +1,420 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successfull login with valid Credential",
+        "description": "",
+        "id": "login-test;successfull-login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3631197420,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "StepRegister.user_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2527384797,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "StepRegister.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396334429,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 60
+                }
+              ],
+              "location": "StepRegister.user_enters_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3208952461,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepRegister.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18619494,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be on \"Dashboard / NopCommerce News\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / NopCommerce News",
+                  "offset": 19
+                }
+              ],
+              "location": "StepRegister.user_should_be_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079807018,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks logout",
+            "match": {
+              "location": "StepRegister.user_clicks_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11714275,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User shoud be on page \"Welcome, please sign in!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, please sign in!",
+                  "offset": 23
+                }
+              ],
+              "location": "StepRegister.user_shoud_be_on_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2167556348,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User close the browser",
+            "match": {
+              "location": "StepRegister.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Login with user Credential",
+        "description": "",
+        "id": "login-test;login-with-user-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1335635993,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "StepRegister.user_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1852667059,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "StepRegister.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371587669,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 60
+                }
+              ],
+              "location": "StepRegister.user_enters_Email_as_and_Password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3542107830,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepRegister.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18418136,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be on \"Dashboard / NopCommerce News\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / NopCommerce News",
+                  "offset": 19
+                }
+              ],
+              "location": "StepRegister.user_should_be_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1024772794,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks logout",
+            "match": {
+              "location": "StepRegister.user_clicks_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10553308,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User shoud be on page \"Welcome, please sign in!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, please sign in!",
+                  "offset": 23
+                }
+              ],
+              "location": "StepRegister.user_shoud_be_on_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2165262914,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User close the browser",
+            "match": {
+              "location": "StepRegister.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Login with user Credential",
+        "description": "",
+        "id": "login-test;login-with-user-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278697053,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "StepRegister.user_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2039785301,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "StepRegister.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367746185,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "Admin",
+                  "offset": 60
+                }
+              ],
+              "location": "StepRegister.user_enters_Email_as_and_Password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 389929434,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepRegister.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23726005,
+              "error_message": "java.lang.AssertionError: expected [Your store. Login] but found [Dashboard / nopCommerce administration]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat org.testng.Assert.assertEquals(Assert.java:585)\n\tat com.boston.steps.StepRegister.user_should_be_on(StepRegister.java:55)\n\tat ✽.And User should be on \"Dashboard / NopCommerce News\"(register.feature:21)\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User should be on \"Dashboard / NopCommerce News\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / NopCommerce News",
+                  "offset": 19
+                }
+              ],
+              "location": "StepRegister.user_should_be_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User clicks logout",
+            "match": {
+              "location": "StepRegister.user_clicks_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User shoud be on page \"Welcome, please sign in!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, please sign in!",
+                  "offset": 23
+                }
+              ],
+              "location": "StepRegister.user_shoud_be_on_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User close the browser",
+            "match": {
+              "location": "StepRegister.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "I want to Login with my credential",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  }
+]
